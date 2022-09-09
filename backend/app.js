@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const Sauce = require('./models/sauce');
 const bodyParser = require('body-parser');
 const path = require('path');
+//require("dotenv").config();
+
+// process.env.SECRET_DB,
 
 const app = express();
 mongoose.connect('mongodb+srv://maxdutronc:123piquante@sarromdpiquante.sd3rv.mongodb.net/?retryWrites=true&w=majority',
